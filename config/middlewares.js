@@ -6,7 +6,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['https://electronics-ecommerce-frontend-omega.vercel.app'], // Frontend Vercel URL
+      origin: ['https://electronics-ecommerce-frontend-alpha.vercel.app/'], // Frontend Vercel URL
       methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
       allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
     },
